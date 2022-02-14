@@ -42,7 +42,8 @@ a {
 */
 
 .primary-navigation {
-    padding: 12px 0;
+    padding: 10px 0;
+    border-bottom: 2px solid #eaebec;
 }
 
 .primary-nav-list {
@@ -57,7 +58,7 @@ a {
 }
 
 .spacing {
-    padding-right: 25px;
+    padding-right: 32px;
 }
 
 .primary-nav-list,
@@ -91,11 +92,12 @@ a {
 }
 
 .logo {
-    height: 30px;
-    /* padding-right: 60px; */
+    height: 28px;
+    margin-top: 5px;
+    display: inline-block;
+    position: absolute;
+    right: 43.5%;
 }
-
-
 
 /* search box */
 
@@ -109,5 +111,5 @@ a {
 
 .search {
     height: 20px;
-    padding-left: 100px;
+    padding-left: 110px;
 }
