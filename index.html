@@ -4,7 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" src="assets/stylesheets/stylesheet.css">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/normalize.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
         <title>Khan Academy</title>
     </head>
     <body>
@@ -12,32 +19,42 @@
             <nav class="primary-navigation">
                 <ul class="primary-nav-list">
                     <li>
-                        <Label for="dropdown">Courses</Label>
-                        <select name="dropdown" id="dropdown">
-                            <option value="one">One</option>
-                            <option value="two">Two</option>
-                            <option value="three">Three</option>
-                        </select>
+                        <ul class="form-list">
+                            <li class="spacing">
+                                <a href="#">
+                                    <div class="dropdown">
+                                        <span class="dropdown-text">Courses</span>
+                                        <img class="dropdown-icon" src="assets/images/dropdown.png" alt="dropdown icon">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="search-link" href="#">
+                                    <div class="search-box">
+                                        <span class="search-text">Search</span>
+                                        <img class="search" src="assets/images/search.png" alt="search icon">
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
                     </li>
-                    <li>
-                        <form class="search">
-                            <label for="search-bar">Search</label>
-                            <input id="search-bar" type="text">
-                        </form>
-                    </li>
-                    <li>
+                    <!-- <li>
                         <a href="index.html">
-                            <img href="assets/images/logo.png" alt="Khan Academy Logo">
+                            <img class="logo" src="assets/images/logo.png" alt="Khan Academy Logo">
                         </a>
-                    </li>
+                    </li> -->
                     <li>
-                        <a class="nav-link" href="donate.html">Donate</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="login.html">Log In</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="signup.html">Sign Up</a>
+                        <ul class="primary-link-list">
+                            <li class="spacing">
+                                <a class="nav-link" href="donate.html">Donate</a>
+                            </li>
+                            <li class="spacing">
+                                <a class="nav-link" href="login.html">Login</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="signup.html">Sign Up</a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </nav>

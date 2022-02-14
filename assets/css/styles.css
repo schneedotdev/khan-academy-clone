@@ -1,0 +1,113 @@
+/* Box Model Hack */
+* {
+box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*
+================= Base Styles =================
+*/
+
+body {
+    font-family: 'Lato', 'Noto Sans', 'Helvetica', 'Corbel', sans-serif, 'Helvetica', 'Corbel', sans-serif;
+}
+
+a {
+    color: #1865f2;
+    text-decoration: none;
+}
+
+
+/*
+================= Layout =================
+*/
+
+
+/*
+================= Additional Styles =================
+*/
+
+.primary-navigation {
+    padding: 12px 0;
+}
+
+.primary-nav-list {
+    padding: 0 105px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-list,
+.primary-link-list {
+    padding: 0;
+}
+
+.spacing {
+    padding-right: 25px;
+}
+
+.primary-nav-list,
+.form-list,
+.primary-link-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+}
+
+.primary-nav-list li,
+.form-list li,
+.primary-link-list li {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-text {
+    padding-right: 5px;
+}
+
+.dropdown-icon {
+    width: 10px;
+    height: 7px;
+}
+
+.logo {
+    height: 30px;
+    /* padding-right: 60px; */
+}
+
+
+
+/* search box */
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background: #f0f1f2;
+    padding: 10px;
+    border-radius: .25rem;
+}
+
+.search {
+    height: 20px;
+    padding-left: 100px;
+}
