@@ -121,12 +121,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* main */
 
-.main-image {
+.main-img-section {
     text-align: right;
     padding-top: 78px;
 }
 
-.learn-img {
+.main-img {
     width: 80%;
     margin-right: 4px;
 }
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 108px;
 }
 
-.main-image,
+.main-img-section,
 .main-info {
     float: left;
     width: 50%;
@@ -198,14 +198,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 8px;
 }
 
-
-/* */
-
 .secondary-content-wrapper {
     clear: both;
-    height: 100px;
-    width: 100%;
-    background: #f7f5f4;
-    border-top: 50px solid white;
+    text-align: center;
 }
 
+.arrow {
+    width: 100%;
+    /* remove and replace once I have the background image for the blob picture to sit on top of */
+}
